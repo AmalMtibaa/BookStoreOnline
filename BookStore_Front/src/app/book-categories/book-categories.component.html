@@ -1,0 +1,5 @@
+<div class="card-deck first">
+  <div *ngFor="let category of bookCategories;let i=index;">
+      <app-book-category [category]=category></app-book-category>
+  </div>
+</div>

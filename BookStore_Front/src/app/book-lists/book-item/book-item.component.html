@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="{{book.book_photoURL}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{book.book_name}}</h5>
+    <p class="card-text">Author: <small class="text-muted">{{book.book_author}}</small></p>
+    <p class="card-text">Price : <small class="text-muted">{{book.book_price}} $ </small></p>
+  </div>
+    <button class="btn btn-danger" (click)="onClickAddCard(book.book_id)">Add to card</button>
+</div>
